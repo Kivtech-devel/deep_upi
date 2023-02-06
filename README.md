@@ -1,7 +1,8 @@
 # deep_upi
 
-'''sh
-Uri uri =
+
+```sh
+**Uri uri =
     new Uri.Builder()
         .scheme("upi")
         .authority("pay")
@@ -13,5 +14,7 @@ Uri uri =
         .appendQueryParameter("am", "your-order-amount")           // amount
         .appendQueryParameter("cu", "INR")                         // currency
         .appendQueryParameter("url", "your-transaction-url")       // optional
-        .build();
-'''
+        .build();**
+
+```
+
