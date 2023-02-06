@@ -1,6 +1,6 @@
 # deep_upi
 
-'''
+'''sh
 Uri uri =
     new Uri.Builder()
         .scheme("upi")
